@@ -16,14 +16,14 @@ const recipeForm = (props) => {
 		</div>
 		<div>
 			<Button 
-				label={"edit"} 
+				label={"save"} 
 				handler={} /> 
 			<Button 
 				label={"close"} 
 				handler={} />
 		</div>
 	</form>
-	);
+	); 
 };
 
 export default recipeForm;
